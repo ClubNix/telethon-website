@@ -1,1 +1,32 @@
-Hello World
+---
+layout: default
+title: {{ site.name }}
+---
+
+<div id="home">
+    <center>
+        <iframe width="672" height="378" src="https://www.youtube.com/embed/X1nxMri8FLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+  <h1>Les événements du jour </h1>
+  {% assign filtered_posts = site.posts | where: 'concern', "mardi" | sort: date%}
+  <div class="billets">
+          {% for post in filtered_posts %}
+          <hr/>
+        <center><a class="title" href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+        </a></center>
+        <center><p>{{ post.excerpt }}</p></center>
+      {% endfor %}
+      <hr/>
+  </div>
+  {% assign planning = site.posts | where: 'categories', "planning" %}
+{% for post in planning %}
+  <a class="title" href="{{ site.baseurl }}{{ post.url }}"><h1>{{ post.title }}</h1></a>
+  <p>{{ post.excerpt }}</p>
+{% endfor %}
+{% assign remerciements = site.posts | where: 'categories', "remerciements" %}
+{% for post in remerciements %}
+<h1>{{ post.title }}</h1>
+<p>{{ post.content }}</p>
+{% endfor %}
+</div>

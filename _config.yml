@@ -1,1 +1,18 @@
-theme: jekyll-theme-tactile
+# Setup
+title:        Téléthon 2k18 Esiee by ESF
+tagline:      Ce site centralise toutes les infos pour le Téléthon 2018 à Esiee Paris
+baseurl:      ""
+paginate:     1
+locale:       "fr"
+
+# About/contact
+author:
+  name:       Club*Nix
+  url:        https://clubnix.fr
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
