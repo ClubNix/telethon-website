@@ -8,7 +8,7 @@ concern: never
 Tu es trop pressé pour ne pas attendre chaque jour ce que te réserve le lendemain ?
 Alors, viens voir le planning ! ;)
 
-En plus du menu du jour, chaque jour différent, l'ESf te réserve de belles
+En plus du menu du jour, chaque jour différent, l'ESF te réserve de belles
 activités en collaboration avec beaucoup de clubs :
 
 |        | Lundi | Mardi |  Mercredi | Jeudi |
