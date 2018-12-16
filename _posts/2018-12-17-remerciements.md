@@ -7,7 +7,7 @@ concern: never
 ---
 Nous, l’équipe ESF, remercions :
 - l’administration​​ pour nous avoir accordé l’organisation du Téléthon
-- le club*Nix​​ pour cette page web et leur amphi Mercredi soir
+- le club*Nix​​ pour ce site web et leur amphi Mercredi soir
 - Fonzy​​ pour les bars, les barrières et la moquette
 - le club Strat’​​ pour l’organisation de la Draft Magic
 - la Sono​​ pour les mixs chaque midi
