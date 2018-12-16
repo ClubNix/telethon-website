@@ -5,7 +5,9 @@ title: {{ site.name }}
 
 <div id="home">
     <center>
-        <iframe width="672" height="378" src="https://www.youtube.com/embed/X1nxMri8FLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video-container">
+            <iframe width="672" height="378" src="https://www.youtube.com/embed/X1nxMri8FLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </center>
   <h1>Les événements du jour </h1>
   {% assign filtered_posts = site.posts | where: 'concern', "mardi" | sort: date%}
