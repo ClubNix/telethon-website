@@ -22,11 +22,11 @@ title: {{ site.name }}
   </div>
 
   {% assign planning = site.posts | where: 'categories', "planning" %}
-{% for post in planning %}
-  <a href="{{ site.baseurl }}{{ post.url }}"><h1>{{ post.title }}</h1>
-      <p>{{ post.excerpt }}</p>
-</a>
-{% endfor %}
+    {% for post in planning %}
+        <a href="{{ site.baseurl }}{{ post.url }}"><h1>{{ post.title }}</h1>
+          <p>{{ post.excerpt }}</p>
+        </a>
+    {% endfor %}
 
 {% assign remerciements = site.posts | where: 'categories', "remerciements" %}
 {% for post in remerciements %}

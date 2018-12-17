@@ -106,6 +106,9 @@ a.title{
  a:active,
  a:hover {
  	text-decoration: underline;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+	text-decoration: underline;
  }
  a.title:active,
  a.title:hover {
