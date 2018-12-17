@@ -13,7 +13,6 @@ Nous, l’équipe ESF, remercions :
 - la Sono​​ pour les mixs chaque midi
 - le club Wave​​ pour leurs chorégraphies.
 - le club Photos​​ de prendre quelques photos souvenirs
-- L’ETV​​ pour les vidéos
 - le club International​​ pour leur activité du Mardi Soir
 - le club Foyer​​ et​ le club PC​​ pour l’espace détente
 - le club Magie​​ pour leur session Mardi midi
