@@ -3,7 +3,7 @@ layout: post
 title:  "Le Téléthon à l'ESIEE c'est quoi ?"
 date:   2018-01-01 00:20:00
 categories: presentation
-concern: never
+concern: always
 ---
 
 Le Téléthon est un événement annuel de l'école, organisé par l'Esiee Sans Frontières (ou ESF), il a pour but de récolter un maximum de fonds afin de faire le plus gros don possible au Téléthon.

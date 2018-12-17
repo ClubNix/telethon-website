@@ -3,7 +3,7 @@ layout: post
 title:  "Planning complet de la semaine"
 date:   2018-12-11 01:00:00
 categories: planning
-concern: never
+concern: always
 ---
 Tu es trop pressé pour ne pas attendre chaque jour ce que te réserve le lendemain ?
 Alors, viens voir le planning ! ;)

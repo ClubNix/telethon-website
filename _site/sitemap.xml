@@ -5,6 +5,14 @@
 <lastmod>2018-01-01T01:20:00+01:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/menu/2018/12/10/menu-mardi.html</loc>
+<lastmod>2018-12-10T01:20:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/main/2018/12/11/d%C3%A9fis-mardi.html</loc>
+<lastmod>2018-12-11T01:19:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/main/2018/12/11/tombola.html</loc>
 <lastmod>2018-12-11T01:20:00+01:00</lastmod>
 </url>
@@ -13,7 +21,7 @@
 <lastmod>2018-12-11T01:20:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/main/2018/12/11/horaires.html</loc>
+<loc>http://localhost:4000/horaires/2018/12/11/horaires.html</loc>
 <lastmod>2018-12-11T01:20:00+01:00</lastmod>
 </url>
 <url>
@@ -41,5 +49,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/page6/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page7/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page8/</loc>
 </url>
 </urlset>

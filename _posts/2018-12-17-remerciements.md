@@ -3,7 +3,7 @@ layout: post
 title:  "Remerciements"
 date:   2018-12-11 00:20:00
 categories: remerciements
-concern: never
+concern: always
 ---
 Nous, l’équipe ESF, remercions :
 - l’administration​​ pour nous avoir accordé l’organisation du Téléthon
