@@ -20,6 +20,8 @@ Nous, l’équipe ESF, remercions :
 - le club Ciné​​ pour le film au MD Mercredi soir
 - le club Musique​​ et ​ le club Chorale​​ pour animer la Tombola
 - le club Raclette​​ pour la Raclette Jeudi soir
+- le club Design pour son aide
+
 
 ***Et surtout: Un grand merci à vous, de nous aider à combattre la
 myopathie et autres maladies génétiques !***

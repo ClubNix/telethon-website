@@ -4,31 +4,34 @@ title: {{ site.name }}
 ---
 
 <div id="home">
-    <center>
-        <div class="video-container">
-            <iframe width="672" height="378" src="https://www.youtube.com/embed/X1nxMri8FLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </center>
+{% assign pres = site.posts | where: 'categories', "presentation"%}
+  {% for post in pres %}
+      <h1>{{ post.title }}</h1>
+      <center><p>{{ post.content }}</p></center>
+    {% endfor %}
+
   <h1>Les événements du jour </h1>
-  {% assign filtered_posts = site.posts | where: 'concern', "mardi" | sort: date%}
+  {% assign filtered_posts = site.posts | where: 'concern', "lundi" | sort: date%}
   <div class="billets">
           {% for post in filtered_posts %}
           <hr/>
-        <center><a class="title" href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-        </a></center>
-        <center><p>{{ post.excerpt }}</p></center>
+        <center><h2>{{ post.title }}</h2></center>
+        <center><p>{{ post.content }}</p></center>
       {% endfor %}
       <hr/>
   </div>
+
   {% assign planning = site.posts | where: 'categories', "planning" %}
 {% for post in planning %}
-  <a class="title" href="{{ site.baseurl }}{{ post.url }}"><h1>{{ post.title }}</h1></a>
-  <p>{{ post.excerpt }}</p>
+  <a href="{{ site.baseurl }}{{ post.url }}"><h1>{{ post.title }}</h1>
+      <p>{{ post.excerpt }}</p>
+</a>
 {% endfor %}
+
 {% assign remerciements = site.posts | where: 'categories', "remerciements" %}
 {% for post in remerciements %}
 <h1>{{ post.title }}</h1>
 <p>{{ post.content }}</p>
 {% endfor %}
+
 </div>
