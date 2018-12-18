@@ -11,7 +11,7 @@ title: {{ site.name }}
     {% endfor %}
 
   <h1>Les événements du jour </h1>
-  {% assign filtered_posts = site.posts | where: 'concern', "mardi" | sort: date%}
+  {% assign filtered_posts = site.posts | where: 'concern', "mercredi" | sort: date%}
   <div class="billets">
           {% for post in filtered_posts %}
           <hr/>
