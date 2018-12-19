@@ -13,7 +13,15 @@
 <lastmod>2018-12-10T01:20:00+01:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/main/2018/12/11/d%C3%A9fis-jeudi.html</loc>
+<lastmod>2018-12-11T01:19:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/main/2018/12/11/d%C3%A9fis-mardi.html</loc>
+<lastmod>2018-12-11T01:19:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/main/2018/12/11/activit%C3%A9s-jeudi.html</loc>
 <lastmod>2018-12-11T01:19:00+01:00</lastmod>
 </url>
 <url>
@@ -76,5 +84,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/page11/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page12/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page13/</loc>
 </url>
 </urlset>
